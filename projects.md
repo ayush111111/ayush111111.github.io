@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Project
-permalink: /Project/
+permalink: /projects/
 published: true
 ---
 
