@@ -13,7 +13,7 @@ It has two controllers, for rotation and speed.
 * a. The red line present on the formula track is to be followed.
 
 
-* b. A "mask" is developed using the RGB values of the input image are thresholded such that only red colour is highlighted.
+* b. A "mask" is developed using the RGB (or hsv) values of the input image are thresholded such that only red colour is highlighted.
 
 
 * c. Overlaying this mask over the input image gives us a red coloured blob representing the line to be followed.
