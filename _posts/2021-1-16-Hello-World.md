@@ -35,7 +35,7 @@ It has two controllers, for rotation and speed.
 
 
 
-
+_input image along with red line and set point_
 
 [![camera feed along with processed image](https://yt-embed.herokuapp.com/embed?v=4kmUJu2Xqlg)](https://www.youtube.com/watch?v=4kmUJu2Xqlg "camera feed along with processed image")
 
