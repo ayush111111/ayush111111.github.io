@@ -31,7 +31,9 @@ It has two controllers, for rotation and speed.
                 
 # 3. D control
 	- The overshooting of the desired signal can be reduced by using D control (differentiator). The change in error is multiplied by Kd to give the requiered output.
-    
+ 
+[_video by MATLAB explaining PID_](https://www.youtube.com/watch?v=wkfEZmsQqiA)
+ 
 _this video demonstrates the use of PD control_
 [![gazebo simulation of Formula Car](https://yt-embed.herokuapp.com/embed?v=PHs2H54jiRc)](https://www.youtube.com/watch?v=PHs2H54jiRc "gazebo simulation of Formula Car")
 
