@@ -9,16 +9,23 @@ It has two controllers, for rotation and speed.
 
 ## Image Processing
 # 1. Colour filtering
-	The red line present on the formula track is to be followed.
-    A "mask" is developed using the RGB values of the input image are thresholded such that only red colour is highlighted.
-    Overlaying this mask over the input image gives us a red coloured blob representing the line to be followed.
-	
+	-The red line present on the formula track is to be followed.
+    -A "mask" is developed using the RGB values of the input image are thresholded such that only red colour is highlighted.
+    -Overlaying this mask over the input image gives us a red coloured blob representing the line to be followed.
+
+[![camera feed along with processed image](https://yt-embed.herokuapp.com/embed?v=4kmUJu2Xqlg)](https://www.youtube.com/watch?v=4kmUJu2Xqlg "camera feed along with processed image")
 
 # 2. Finding a single point to be tracked
+	-A single point (or a line) is considered as an ideal "set" point which represents the direction in which the car should be going
+    -to find this point, the concept of moments in OpenCV is used, 
+    -Definition of moments in [image processing is borrowed from physics](https://stackoverflow.com/questions/22470902/understanding-moments-function-in-opencv). Assume that each pixel in image has weight that is equal to its intensity. Then the point you defined is centroid (a.k.a. center of mass) of image.
+	-Assume that I(x,y) is the intensity of pixel (x,y) in image. Then m(i,j) is the sum for all possible x and y of: I(x,y) * (x^i) * (y^j).
+
 ## PD control
+	-
 
 [![gazebo simulation of Formula Car](https://yt-embed.herokuapp.com/embed?v=PHs2H54jiRc)](https://www.youtube.com/watch?v=PHs2H54jiRc "gazebo simulation of Formula Car")
 
-[![camera feed along with processed image](https://yt-embed.herokuapp.com/embed?v=4kmUJu2Xqlg)](https://www.youtube.com/watch?v=4kmUJu2Xqlg "camera feed along with processed image")
+
 
 **above project is a solution to exercise problems on [JDE Robotics Academy](http://jderobot.github.io/RoboticsAcademy/)**
