@@ -20,10 +20,15 @@ It has two controllers, for rotation and speed.
     -to find this point, the concept of moments in OpenCV is used, 
     -Definition of moments in [image processing is borrowed from physics](https://stackoverflow.com/questions/22470902/understanding-moments-function-in-opencv). Assume that each pixel in image has weight that is equal to its intensity. Then the point you defined is centroid (a.k.a. center of mass) of image.
 	-Assume that I(x,y) is the intensity of pixel (x,y) in image. Then m(i,j) is the sum for all possible x and y of: I(x,y) * (x^i) * (y^j).
+    -The error value is calculated by the difference in x and y values of the set point and the centre of the frame at the bottom of the input image.
 
-## PD control
+## PID control
+# 1. P control
 	-
-
+# 2. I control
+# 3. D control 
+	-
+_this video demonstrates the use of PD control_
 [![gazebo simulation of Formula Car](https://yt-embed.herokuapp.com/embed?v=PHs2H54jiRc)](https://www.youtube.com/watch?v=PHs2H54jiRc "gazebo simulation of Formula Car")
 
 
