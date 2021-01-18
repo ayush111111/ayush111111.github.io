@@ -9,7 +9,7 @@ It has two controllers, for rotation and speed.
 
 [gazebo simulation of Formula Car](https://www.youtube.com/watch?v=PHs2H54jiRc)
 
-[![Everything Is AWESOME](https://yt-embed.herokuapp.com/embed?v=PHs2H54jiRc)](https://www.youtube.com/watch?v=PHs2H54jiRc "Everything Is AWESOME")
+[![gazebo simulation of Formula Car](https://yt-embed.herokuapp.com/embed?v=PHs2H54jiRc)](https://www.youtube.com/watch?v=PHs2H54jiRc "gazebo simulation of Formula Car")
 
 [![gazebo simulation of Formula Car](https://img.youtube.com/watch?v=PHs2H54jiRc.jpg)](https://www.youtube.com/watch?v=PHs2H54jiRc "gazebo simulation of Formula Car")
 
