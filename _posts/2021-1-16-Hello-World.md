@@ -22,30 +22,29 @@ It has two controllers, for rotation and speed.
 
 ### 2. Finding a single point to be tracked
 
-a. A single point (or a line) is considered as an ideal "set" point which represents the direction in which the car should be going to find this point, the concept of moments in OpenCV is used
+* a. A single point (or a line) is considered as an ideal "set" point which represents the direction in which the car should be going to find this point, the concept of moments in OpenCV is used
 
 
-b.Definition of moments in [image processing is borrowed from physics](https://stackoverflow.com/questions/22470902/understanding-moments-function-in-opencv). Assume that each pixel in image has weight that is equal to its intensity. Then the point you defined is centroid (a.k.a. center of mass) of image.
+* b.Definition of moments in [image processing is borrowed from physics](https://stackoverflow.com/questions/22470902/understanding-moments-function-in-opencv). Assume that each pixel in image has weight that is equal to its intensity. Then the point you defined is centroid (a.k.a. center of mass) of image.
 
 
-c. Assume that I(x,y) is the intensity of pixel (x,y) in image. Then m(i,j) is the sum for all possible x and y of: I(x,y) * (x^i) * (y^j).
+* c. Assume that I(x,y) is the intensity of pixel (x,y) in image. Then m(i,j) is the sum for all possible x and y of: I(x,y) * (x^i) * (y^j).
 
 
-d. The error value is calculated by the difference in x and y values of the set point and the centre of the frame at the bottom of the input image.
+* d. The error value is calculated by the difference in x and y values of the set point and the centre of the frame at the bottom of the input image.
 
 
 
 ## PID control
 ### 1. P control
-
-a. Generates a signal that is directly proportional to the error, with the multiplying factor being Kd. However, the value signal often ends up oscillating around the desired value.
+* Generates a signal that is directly proportional to the error, with the multiplying factor being Kd. However, the value signal often ends up oscillating around the desired value.
 	
 ### 2. I control
-b. The offset error accumulated by the P control can be removed using the I control (Integrator).
+* The offset error accumulated by the P control can be removed using the I control (Integrator).
     			integral error = previous integral error + current error
                 
 ### 3. D control
-c. The overshooting of the desired signal can be reduced by using D control (differentiator). The change in error is multiplied by Kd to give the requiered output.
+* The overshooting of the desired signal can be reduced by using D control (differentiator). The change in error is multiplied by Kd to give the requiered output.
  
  
  
