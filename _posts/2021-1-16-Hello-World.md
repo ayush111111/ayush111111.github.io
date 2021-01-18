@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PD Control line follower
+title: PID Control line follower
 published: true
 ---
 
