@@ -52,7 +52,6 @@ c.The overshooting of the desired signal can be reduced by using D control (diff
 [_video by MATLAB explaining PID_](https://www.youtube.com/watch?v=wkfEZmsQqiA)
  
  
- 
 _this video demonstrates the use of PD control_
 
 
