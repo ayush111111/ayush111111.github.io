@@ -32,6 +32,8 @@ It has two controllers, for rotation and speed.
 
 * d. The error value is calculated by the difference in x and y values of the set point and the centre of the frame at the bottom of the input image.
 
+
+
 [![camera feed along with processed image](https://yt-embed.herokuapp.com/embed?v=4kmUJu2Xqlg)](https://www.youtube.com/watch?v=4kmUJu2Xqlg "camera feed along with processed image")
 
 ---
