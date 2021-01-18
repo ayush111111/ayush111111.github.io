@@ -35,8 +35,9 @@ It has two controllers, for rotation and speed.
 [_video by MATLAB explaining PID_](https://www.youtube.com/watch?v=wkfEZmsQqiA)
  
 _this video demonstrates the use of PD control_
+
 [![gazebo simulation of Formula Car](https://yt-embed.herokuapp.com/embed?v=PHs2H54jiRc)](https://www.youtube.com/watch?v=PHs2H54jiRc "gazebo simulation of Formula Car")
 
 
 
-**above project is a solution to exercise problems on [JDE Robotics Academy](http://jderobot.github.io/RoboticsAcademy/)**
+## **above project is a solution to exercise problems on [JDE Robotics Academy](http://jderobot.github.io/RoboticsAcademy/)**
