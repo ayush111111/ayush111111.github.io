@@ -10,27 +10,27 @@ It has two controllers, for rotation and speed.
 ## Image Processing
 ### 1. Colour filtering
 
-* a. The red line present on the formula track is to be followed.
+* The red line present on the formula track is to be followed.
 
 
-* b. A "mask" is developed using the RGB (or hsv) values of the input image are thresholded such that only red colour is highlighted.
+* A "mask" is developed using the RGB (or hsv) values of the input image are thresholded such that only red colour is highlighted.
 
 
-* c. Overlaying this mask over the input image gives us a red coloured blob representing the line to be followed.
+* Overlaying this mask over the input image gives us a red coloured blob representing the line to be followed.
 
 
 ### 2. Finding a single point to be tracked
 
-* a. A single point (or a line) is considered as an ideal "set" point which represents the direction in which the car should be going to find this point, the concept of moments in OpenCV is used
+* A single point (or a line) is considered as an ideal "set" point which represents the direction in which the car should be going to find this point, the concept of moments in OpenCV is used
 
 
-* b.Definition of moments in [image processing is borrowed from physics](https://stackoverflow.com/questions/22470902/understanding-moments-function-in-opencv). Assume that each pixel in image has weight that is equal to its intensity. Then the point you defined is centroid (a.k.a. center of mass) of image.
+* Definition of moments in [image processing is borrowed from physics](https://stackoverflow.com/questions/22470902/understanding-moments-function-in-opencv). Assume that each pixel in image has weight that is equal to its intensity. Then the point you defined is centroid (a.k.a. center of mass) of image.
 
 
-* c. Assume that I(x,y) is the intensity of pixel (x,y) in image. Then m(i,j) is the sum for all possible x and y of: I(x,y) * (x^i) * (y^j).
+* Assume that I(x,y) is the intensity of pixel (x,y) in image. Then m(i,j) is the sum for all possible x and y of: I(x,y) * (x^i) * (y^j).
 
 
-* d. The error value is calculated by the difference in x and y values of the set point and the centre of the frame at the bottom of the input image.
+* The error value is calculated by the difference in x and y values of the set point and the centre of the frame at the bottom of the input image.
 
 
 
