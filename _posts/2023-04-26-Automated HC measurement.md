@@ -3,7 +3,7 @@ published: true
 ---
 
 
-	The growth and development of the fetal head and brain during pregnancy are crucial for the child's long-term health and well-being. However, fetal ultrasound images are prone to variations due to patient-specific factors and image issues such as signal dropouts, artifacts, and missing boundaries. Hence, there is a need for automatic methods to ensure accurate and consistent measurements of fetal head and brain growth. . 
+The growth and development of the fetal head and brain during pregnancy are crucial for the child's long-term health and well-being. However, fetal ultrasound images are prone to variations due to patient-specific factors and image issues such as signal dropouts, artifacts, and missing boundaries. Hence, there is a need for automatic methods to ensure accurate and consistent measurements of fetal head and brain growth. . 
 .
 Application 
 
