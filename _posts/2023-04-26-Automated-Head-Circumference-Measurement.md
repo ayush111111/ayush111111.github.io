@@ -16,9 +16,18 @@ EfficientNet-Unet is a neural network architecture designed for semantic segment
 
 The EfficientNet-Unet architecture leverages the efficient feature extraction capabilities of the EfficientNet, which allows it to achieve state-of-the-art performance on image classification tasks, and combines it with the powerful segmentation capabilities of the UNet, which allows it to generate accurate segmentation masks with fewer parameters and faster inference times.
 
-Below graph summarizes the training of EfficintNet Unet over 100 epochs.  
-![epochVsLoss.png]({site.baseurl}/_posts/epochVsLoss.png)
-
+Below graph summarizes the training of EfficientNet Unet over 100 epochs.  
+<p align="center">
+  <img src="epochVsLoss.png" alt="Epoch Vs Loss.">
+</p>
 Predictions on the test set were made and their dice scores were calculated. Their distribution is represented below with a histogram and a boxplot.
-![distributionTest.png]({site.baseurl}/_posts/distributionTest.png)
+<p align="center">
+  <img src="distributionTest.png" alt="distribution of Test set scores">
+</p>
 Median dice score of 0.9889 was obtained the test dataset (10% of total [dataset](https://zenodo.org/record/1322001))
+
+
+Hyperparameter tuning performed using KerasTuner
+<iframe src="[https://docs.google.com/document/d/e/2PACX-1vTiGoxWOEWzX14kSzbYt_avvOT-2VY6srT4pwtI0wqNcVquLw_ymMAjb3vI8dYvuyFJLfSKvyUJMDzY/pub?embedded=true](https://drive.google.com/file/d/179ToblRzB8v83hxiPjTHCypfmyXziKQT/view?usp=sharing)"></iframe>
+
+<iframe src="https://drive.google.com/file/d/179ToblRzB8v83hxiPjTHCypfmyXziKQT/preview" width="640" height="480" allow="autoplay"></iframe>
