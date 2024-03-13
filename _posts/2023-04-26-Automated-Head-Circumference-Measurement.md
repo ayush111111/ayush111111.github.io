@@ -9,7 +9,7 @@ Application
 
 <script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.27.0/gradio.js"></script>
 <gradio-app src="https://aaylmao-hc-prediction.hf.space"></gradio-app>
-
+<!--
 
 EfficientNet-Unet is a neural network architecture designed for semantic segmentation tasks, which combines the EfficientNet architecture for feature extraction with the UNet architecture for segmentation. In this architecture, the encoder part of the EfficientNet is replaced by the contracting path of the UNet, which consists of a series of convolutional and max pooling layers to downsample the input image and capture its features. The expansive path of the UNet is then used to upsample the feature map and generate pixel-level segmentation masks.
 
@@ -25,9 +25,8 @@ Predictions on the test set were made and their dice scores were calculated. The
   <img src="distributionTest.png" alt="distribution of Test set scores">
 </p>
 Median dice score of 0.9889 was obtained the test dataset (10% of total [dataset](https://zenodo.org/record/1322001))
-
+-->
 
 Hyperparameter tuning performed using KerasTuner
-<iframe src="[https://docs.google.com/document/d/e/2PACX-1vTiGoxWOEWzX14kSzbYt_avvOT-2VY6srT4pwtI0wqNcVquLw_ymMAjb3vI8dYvuyFJLfSKvyUJMDzY/pub?embedded=true](https://drive.google.com/file/d/179ToblRzB8v83hxiPjTHCypfmyXziKQT/view?usp=sharing)"></iframe>
 
 <iframe src="https://drive.google.com/file/d/179ToblRzB8v83hxiPjTHCypfmyXziKQT/preview" width="640" height="480" allow="autoplay"></iframe>
