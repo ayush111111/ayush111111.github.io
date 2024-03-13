@@ -5,10 +5,7 @@ published: true
 
 The growth and development of the fetal head and brain during pregnancy are crucial for the child's long-term health and well-being. However, fetal ultrasound images are prone to variations due to patient-specific factors and image issues such as signal dropouts, artifacts, and missing boundaries. Hence, there is a need for automatic methods to ensure accurate and consistent measurements of fetal head and brain growth
 
-Application 
 
-<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.27.0/gradio.js"></script>
-<gradio-app src="https://aaylmao-hc-prediction.hf.space"></gradio-app>
 <!--
 
 EfficientNet-Unet is a neural network architecture designed for semantic segmentation tasks, which combines the EfficientNet architecture for feature extraction with the UNet architecture for segmentation. In this architecture, the encoder part of the EfficientNet is replaced by the contracting path of the UNet, which consists of a series of convolutional and max pooling layers to downsample the input image and capture its features. The expansive path of the UNet is then used to upsample the feature map and generate pixel-level segmentation masks.
@@ -30,3 +27,8 @@ Median dice score of 0.9889 was obtained the test dataset (10% of total [dataset
 Hyperparameter tuning performed using KerasTuner
 
 <iframe src="https://drive.google.com/file/d/179ToblRzB8v83hxiPjTHCypfmyXziKQT/preview" width="640" height="480" allow="autoplay"></iframe>
+
+Application 
+
+<script type="module" src="https://gradio.s3-us-west-2.amazonaws.com/3.27.0/gradio.js"></script>
+<gradio-app src="https://aaylmao-hc-prediction.hf.space"></gradio-app>
