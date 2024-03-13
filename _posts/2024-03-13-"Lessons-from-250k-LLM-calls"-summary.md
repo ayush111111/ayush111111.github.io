@@ -1,5 +1,5 @@
 Summary of [this](https://www.credal.ai/blog/takeaways-from-using-llms-on-corporate-documents) nice article written by credal.ai 
-### 1. Questions on complex data sources require carefully formatted data
+# 1. Questions on complex data sources require carefully formatted data
 ---
 ## Issues
 A. Asking questions that dont have a word for word match (eg. summarise the content)
@@ -21,7 +21,7 @@ C. LLM cannot read tables/dates
 - <u>solution</u> - provide the table as a seperate input csv. 
 
 ---
-### 2. Good prompts focus on the hardest part of the task
+# 2. Good prompts focus on the hardest part of the task
 ## Issues
 
 A1. Selection of Person to answer a question from a slack channel
