@@ -1,4 +1,5 @@
 Summary of [this](https://www.credal.ai/blog/takeaways-from-using-llms-on-corporate-documents) nice article written by credal.ai 
+---
 # 1. Questions on complex data sources require carefully formatted data
 ---
 ## Issues
