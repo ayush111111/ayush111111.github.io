@@ -1,4 +1,4 @@
-# AutoGen Paper Summary
+AutoGen is a generalized multi-agent conversation framework based on conversable agents
 
 [https://arxiv.org/abs/2308.08155](https://arxiv.org/abs/2308.08155)
 
