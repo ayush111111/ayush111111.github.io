@@ -1,15 +1,16 @@
 Summary of [this](https://www.credal.ai/blog/takeaways-from-using-llms-on-corporate-documents) nice article written by credal.ai 
 
 ---
-# 1. Questions on complex data sources require carefully formatted data
+## 1. Questions on complex data sources require carefully formatted data
 ---
-## Issues
+### Issues
 A. Asking questions that dont have a word for word match (eg. summarise the content)
 - <u>solution</u>
   -  finding a sub-section summary within the document
 - <u>implementation</u>
   - use LLMs to tag sub-sections with metadata
   - figuring out what all the possible tags should be upfront is impossible. If the human expert can tell us the important concepts to look out for, the LLM can identify which parts of each document (or which documents as a whole) are relevant.
+
 ---
 B. Issues due to references/footnotes/similar human-readable metadata - 
 - <u>solution</u>
@@ -23,8 +24,9 @@ C. LLM cannot read tables/dates
 - <u>solution</u> - provide the table as a seperate input csv. 
 
 ---
-# 2. Good prompts focus on the hardest part of the task
-## Issues
+## 2. Good prompts focus on the hardest part of the task
+---
+### Issues
 
 A1. Selection of Person to answer a question from a slack channel
 - <u>solution</u>
