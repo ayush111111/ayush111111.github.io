@@ -5,7 +5,8 @@ permalink: /about/
 published: true
 ---
 
-
+Hi!
+  As interactive systems become increasingly sophisticated with machine learning, ensuring their effectiveness in real-world scenarios is crucial. Overcoming practical implementation challenges is essential to make these systems truly valuable to users. I am dedicated to enhancing my understanding of machine learning applications to build robust and efficient systems.
 
 ### Contact me
 
