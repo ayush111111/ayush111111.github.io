@@ -1,10 +1,10 @@
-# **Learning to reason with LLMs**
+Notes from Lecture 2 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI
 
-  
-Notes from Lecture 2: Methods for self-improving LLMs  
-\---  
-  
-\--------------------------------  
+---
+
+
+## Learning to Self-Improve & Reason with LLMs
+
 Two types of reasoning to improve  
 System 1: Reactive and relies on associations
 
@@ -36,7 +36,7 @@ Pre 2023 - Improving System 1 Models
     *   Sycophancy - Agrees with user, though they're incorrect
 *   Branch-Solve-Merge: for evaluating and improving language generation - Break down response evaluation into subproblems - relevance, clarity, accuracy, originality.
 
-\--------------------------------  
+\-------------------------------- 
   
 2023+ - Training models end to end - Improving reasoning through optimisation
 
