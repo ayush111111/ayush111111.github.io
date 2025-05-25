@@ -1,5 +1,5 @@
-# 
-Notes from Lecture 1 of [this](https://llmagents-learning.org/sp25)) Open MOOC offered by Berkeley RDI
+ 
+Notes from Lecture 1 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI
 
 ---
   
