@@ -1,7 +1,6 @@
-# Notes from Lecture 3 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
-\---
+Notes from Lecture 3 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
 
-  
+\---
 
 # On Memory, Reasoning, and Planning of Language Agents
 
