@@ -1,5 +1,6 @@
-# Open Training Recipes for Reasoning in Language Models
+Notes from Lecture 4 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI
 
+---
   
 Olmo = Open language model  
 Tulu = open, reproducible training recipes  
