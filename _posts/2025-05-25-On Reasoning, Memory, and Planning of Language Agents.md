@@ -2,7 +2,6 @@ Notes from Lecture 3 of [this](https://llmagents-learning.org/sp25) Open MOOC of
 
 \---
 
-# On Memory, Reasoning, and Planning of Language Agents
 
 ### On long-term memory - HippoRAG
 
