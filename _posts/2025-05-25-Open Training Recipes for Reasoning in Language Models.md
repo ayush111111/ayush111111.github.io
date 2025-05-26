@@ -142,3 +142,10 @@ Mid-training
 
   
 For OLMo, math data was added during mid-training, which improved gsm8k and DROP capabilities
+
+  
+  
+\------------------------  
+
+https://llmagents-learning.org/sp25  
+https://llmagents-learning.org/slides/OLMo-Tulu-Reasoning-Hanna.pdf
