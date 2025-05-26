@@ -2,9 +2,6 @@ Notes from Lecture 2 of [this](https://llmagents-learning.org/sp25) Open MOOC of
 
 ---
 
-
-## Learning to Self-Improve & Reason with LLMs
-
 Two types of reasoning to improve  
 System 1: Reactive and relies on associations
 
