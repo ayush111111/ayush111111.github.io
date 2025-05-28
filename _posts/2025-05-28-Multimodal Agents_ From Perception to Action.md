@@ -1,8 +1,6 @@
-#   
-Multimodal Agents: From Perception to Action  
-  
+Notes from Lecture 7 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
 
-Multimodal Agents: From Perception to Action  
+\--- 
 by Salesforce AI Research  
 Outline
 
@@ -67,3 +65,6 @@ Outline
             3.  Evaluation, Offline Eval on Mind2Web, AndroidControl and their Online Agent Evals both showed improvements
             4.  Reasoning with inner monologue helps in solving harder tasks
             5.  Training only on web and mobile, shows strong generalisatoin to desktop
+          
+\---------  
+https://language-agent-tutorial.github.io/  
