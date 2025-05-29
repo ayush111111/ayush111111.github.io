@@ -1,6 +1,6 @@
-# Bridging Informal and Formal Mathematical Reasoning with AI
+Notes from Lecture 10 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
 
-  
+\---
 
 1.  Informal thoughts - Training models to think informally Lean-STAR
     1.  In lean, given a theorem, there's a loop between proof state and the next step(tactic) taken to complete the proof
@@ -50,3 +50,9 @@
             3.  Contexts
                 1.  In-file dependencies
                 2.  Cross-file dependencies - premise and context selection necessary for good performance. Competition specific models do not perform well on these.
+              
+
+
+\---------  
+https://rdi.berkeley.edu/adv-llm-agents/sp25
+
