@@ -3,11 +3,10 @@ Notes from Lecture 8 of [this](https://llmagents-learning.org/sp25) Open MOOC of
 \---
 
   
-What constitutes a mathematical proof evolved  
-from worlds to symbol  
+
   
 A brief history of formalisation in mathematics
-
+What constitutes a mathematical proof evolved from words to symbols, this added - 
 1.  Rigor and Clarity
 2.  Efficiency and Communication
 3.  Abstraction and Generalisation
