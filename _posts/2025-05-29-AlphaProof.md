@@ -1,4 +1,6 @@
-# AlphaProof
+Notes from Lecture 8 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
+
+\---
 
   
 What constitutes a mathematical proof evolved  
@@ -83,3 +85,6 @@ Reinforcement Learning
                 *   For each problem
                     *   Generate variants of the problem
                     *   Run RL exactly as previous step
+  
+\---------    
+https://rdi.berkeley.edu/adv-llm-agents/sp25
