@@ -1,6 +1,6 @@
-# Language models for autoformalization and theorem proving
+Notes from Lecture 9 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
 
-  
+\---
   
   
 IMO, FrontierMath datasets for math  
