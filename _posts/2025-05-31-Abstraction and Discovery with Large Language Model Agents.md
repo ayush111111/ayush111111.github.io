@@ -1,8 +1,7 @@
-#   
 
 Notes from Lecture 11 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
   
-\\---  
+\---  
   
 Abstraction and Discovery with Large Language Model Agents  
 Mathematical Discovery - AI for Math aims to automate these
