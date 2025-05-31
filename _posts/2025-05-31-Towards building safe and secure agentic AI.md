@@ -1,7 +1,9 @@
 Notes from Lecture 12 of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
   
-\---  
-  
+
+\---
+
+
 Broad Spectrum of risks
 
 *   misuse - scams
