@@ -1,5 +1,7 @@
-#   
-Overview of Open MOOC Lectures on LLM Agents
+
+Overview of [this](https://llmagents-learning.org/sp25) Open MOOC offered by Berkeley RDI  
+
+\---
 
   
 This article summarizes the twelve lectures I attended in the Berkeley RDI course on LLM agents. For each lecture, I highlight what I found most interesting and explain why those insights stood out.  
@@ -63,6 +65,8 @@ https://ayush111111.github.io/Abstraction-and-Discovery-with-Large-Language-Mode
 
 Finally, I was struck by the prevalence of **SQL injection vulnerabilities** in agentic systems using LLMs (for example, in llamaindex and SuperAGI). This concrete example underscored why **defense in depth**, layered defenses like input sanitization, model hardening, policy enforcement, and runtime monitoring, is vital to protect hybrid AI systems from cascading failures and attacks.  
 https://ayush111111.github.io/Towards-building-safe-and-secure-agentic-AI/  
+
   
+\---------  
 For more details on these lectures and to access the original slides and materials, visit  
 https://rdi.berkeley.edu/adv-llm-agents/sp25
