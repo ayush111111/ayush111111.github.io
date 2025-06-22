@@ -27,7 +27,7 @@ Median dice score of 0.9889 was obtained the test dataset (10% of total [dataset
 
 Hyperparameter tuning performed using KerasTuner
 
-<iframe src="https://drive.google.com/file/d/1h0NqWJDkiBFS_IiRxRxL9jcHeYOTyRIU/view?usp=sharing" width="640" height="480" allow="autoplay"></iframe>
+<iframe src="https://drive.google.com/file/d/1h0NqWJDkiBFS_IiRxRxL9jcHeYOTyRIU/preview" width="640" height="480" allow="autoplay"></iframe>
 
 Application 
 
